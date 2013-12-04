@@ -18,5 +18,11 @@
     <string name="bequal">=</string>
     <string name="ConversionSteps">Conversion Steps</string>
     <string name="convert">Convert</string>
+    <string name="decimal">.</string>
+    <string name="Convert">Convert</string>
+    <string name="backspace">CE</string>
+    <string name="BackSpace">&lt;--- Back Space</string>
+    <string name="Backspace">CE</string>
+    <string name="clear">C</string>
 
 </resources>

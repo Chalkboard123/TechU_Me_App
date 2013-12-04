@@ -12,8 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        >
+        android:layout_height="wrap_content" >
 
         <EditText
             android:id="@+id/editText1"
@@ -25,8 +24,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:gravity="center_vertical">
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
 
         <Button
             android:id="@+id/button1"
@@ -53,6 +52,7 @@
             android:id="@+id/spinner1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -85,6 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -124,28 +125,37 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button12"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0" 
-            android:visibility="invisible"
-            android:enabled="false"/>
-
-        <Button
             android:id="@+id/button10"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="@string/b0" />
 
+        <Button
+            android:id="@+id/button14"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/decimal" />
+
+        <Button
+            android:id="@+id/button11"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Convert" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/convert" />
+        android:text="@string/Backspace" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear" />
 
 </LinearLayout>
