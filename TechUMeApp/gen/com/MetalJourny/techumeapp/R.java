@@ -65,6 +65,7 @@ public final class R {
         public static final int b9=0x7f05000c;
         public static final int bequal=0x7f05000e;
         public static final int button1=0x7f050004;
+        public static final int convert=0x7f050010;
         public static final int hello_world=0x7f050002;
     }
     public static final class style {

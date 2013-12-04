@@ -17,5 +17,6 @@
     <string name="b0">0</string>
     <string name="bequal">=</string>
     <string name="ConversionSteps">Conversion Steps</string>
+    <string name="convert">Convert</string>
 
 </resources>
