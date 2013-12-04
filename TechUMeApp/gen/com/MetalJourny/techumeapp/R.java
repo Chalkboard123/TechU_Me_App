@@ -76,6 +76,7 @@ public final class R {
         public static final int convert=0x7f050010;
         public static final int decimal=0x7f050011;
         public static final int hello_world=0x7f050002;
+        public static final int hint1=0x7f050017;
     }
     public static final class style {
         /** 

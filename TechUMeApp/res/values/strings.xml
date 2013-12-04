@@ -24,5 +24,8 @@
     <string name="BackSpace">&lt;--- Back Space</string>
     <string name="Backspace">CE</string>
     <string name="clear">C</string>
+    <string name="hint1">Starting Value</string>
+    <string name="hint2">Conversion Value</string>
+    <string />
 
 </resources>
