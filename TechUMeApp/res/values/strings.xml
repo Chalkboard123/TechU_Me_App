@@ -24,5 +24,10 @@
     <string name="BackSpace">&lt;--- Back Space</string>
     <string name="Backspace">CE</string>
     <string name="clear">C</string>
+    <string name="prompt1">Type of Conversion</string>
+    <string-array name="types">
+        <item >Volume</item>
+    </string-array>
+    
 
 </resources>
