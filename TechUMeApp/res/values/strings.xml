@@ -27,8 +27,20 @@
     <string name="prompt1">Type of Conversion</string>
     <string-array name="types">
         <item >Volume</item>
+        <item >Weight</item>
+        <item >Distance</item>
     </string-array>
     <string name="hint1">Starting Value</string>
     <string name="hint2">Conversion Value</string>
+    <string-array name="Volume">
+        <item >cm</item>
+        <item >mm</item>
+        <item >km</item>
+        <item >m</item>
+        <item >sq cm</item>
+        <item >sq mm</item>
+        <item >sq km</item>
+        <item >sq m</item>
+    </string-array>
 
 </resources>
