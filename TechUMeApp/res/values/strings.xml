@@ -30,5 +30,6 @@
     </string-array>
     <string name="hint1">Starting Value</string>
     <string name="hint2">Conversion Value</string>
+    <string name="startingvalue">Starting value</string>
 
 </resources>
