@@ -33,14 +33,18 @@
     <string name="hint1">Starting Value</string>
     <string name="hint2">Conversion Value</string>
     <string-array name="Volume">
-        <item >cm</item>
-        <item >mm</item>
-        <item >km</item>
-        <item >m</item>
-        <item >sq cm</item>
-        <item >sq mm</item>
-        <item >sq km</item>
-        <item >sq m</item>
+    </string-array>
+    <string-array name="Weight">
+        <item >gram</item>
+        <item >kilogram </item>
+        <item >metric ton</item>
+        <item />
+    </string-array>
+    <string-array name="Distance">
+        <item >millimeter</item>
+        <item >centimeter</item>
+        <item >meter</item>
+        <item >kilometer</item>
     </string-array>
 
 </resources>
