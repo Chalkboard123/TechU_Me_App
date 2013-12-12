@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">TechUMeApp</string>
@@ -20,19 +20,55 @@
     <string name="hint1">Starting Value</string>
     <string name="hint2">Conversion Value</string>
     <string name="startingvalue">Starting value</string>
-    <string-array name="Mililiters"></string-array>
-    <string-array name="Ounce"></string-array>
-    <string-array name="Pint"></string-array>
-    <string-array name="Cup"></string-array>
-    <string-array name="Liters"></string-array>
-    <string-array name="Gallons"></string-array>
-    <string-array name="Quarts"></string-array>
-    <string-array name="Tea spoon"></string-array>
-    <string-array name="Table Spoon"></string-array>
-    <string-array name="Cubic inch"></string-array>
-    <string-array name="Cubic foot"></string-array>
-    <string-array name="Cubic Meter"></string-array>
-    <string-array name="Milligram"></string-array>
-    <string-array></string-array>
+    <string-array name="Volume">
+        <item >Liters</item>
+        <item >Milliliters</item>
+        <item >Gallons</item>
+        <item >Ounce</item>
+        <item >Pint</item>
+        <item >Cup</item>
+        <item >Tea Spoon</item>
+        <item >Table Spoon</item>
+        <item >Cubic Inch</item>
+        <item >Cubic foot</item>
+        <item >Quarts</item>
+    </string-array>
+    <string-array name="Mass">
+        <item >Milligrams</item>
+        <item >Microgram</item>
+        <item >Kilogram</item>
+        <item >Pounds</item>
+        <item >Ton</item>
+        <item >Ounce</item>
+        <item >Stone</item>
+        <item >Long ton</item>
+        <item >Short ton</item>
+        <item >Gram</item>
+        <item >Metric ton</item>
+    </string-array>
+    <string-array name="Area">
+        <item >Square kilometer</item>
+        <item >Square meter</item>
+        <item >Square Yard</item>
+        <item >Square mile</item>
+        <item >Square foot</item>
+        <item >Square inch</item>
+        <item >Acre</item>
+        <item >Hecatre</item>
+    </string-array>
+    <string-array name="Length/Width/Distance ">
+        <item >Centimeter</item>
+        <item >Inch</item>
+        <item >Millimeter</item>
+        <item >Foot</item>
+        <item >Miles</item>
+        <item >Yard</item>
+        <item >Meter</item>
+        <item >Kilometer</item>
+    </string-array>
+    <string-array name="Temperature">
+        <item >Celsius</item>
+        <item >Fahrenheit</item>
+    </string-array>
 
 </resources>
