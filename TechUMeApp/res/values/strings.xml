@@ -5,46 +5,76 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="MetalJourney">Metal Journey</string>
-    <string name="button1">1</string>
-    <string name="b2">2</string>
-    <string name="b3">3</string>
-    <string name="b4">4</string>
-    <string name="b5">5</string>
-    <string name="b6">6</string>
-    <string name="b7">7</string>
-    <string name="b8">8</string>
-    <string name="b9">9</string>
-    <string name="b0">0</string>
     <string name="bequal">=</string>
     <string name="ConversionSteps">Conversion Steps</string>
     <string name="convert">Convert</string>
-    <string name="decimal">.</string>
     <string name="Convert">Convert</string>
-    <string name="backspace">CE</string>
-    <string name="BackSpace">&lt;--- Back Space</string>
-    <string name="Backspace">CE</string>
-    <string name="clear">C</string>
     <string name="prompt1">Type of Conversion</string>
     <string-array name="types">
         <item >Volume</item>
-        <item >Weight</item>
-        <item >Distance</item>
+       <item >Mass</item>
+        <item >Area</item>
+        <item >Length/Width/Distance</item>
+        <item >Temperature</item>
     </string-array>
     <string name="hint1">Starting Value</string>
     <string name="hint2">Conversion Value</string>
-    <string-array name="Volume">
-    </string-array>
     <string-array name="Weight">
         <item >gram</item>
         <item >kilogram </item>
         <item >metric ton</item>
         <item />
     </string-array>
-    <string-array name="Distance">
-        <item >millimeter</item>
-        <item >centimeter</item>
-        <item >meter</item>
-        <item >kilometer</item>
+    <string name="startingvalue">Starting value</string>
+    <string-array name="Volume">
+        <item >Liters</item>
+        <item >Milliliters</item>
+        <item >Gallons</item>
+        <item >Ounce</item>
+        <item >Pint</item>
+        <item >Cup</item>
+        <item >Tea Spoon</item>
+        <item >Table Spoon</item>
+        <item >Cubic Inch</item>
+        <item >Cubic foot</item>
+        <item >Quarts</item>
+    </string-array>
+    <string-array name="Mass">
+        <item >Milligrams</item>
+        <item >Microgram</item>
+        <item >Kilogram</item>
+        <item >Pounds</item>
+        <item >Ton</item>
+        <item >Ounce</item>
+        <item >Stone</item>
+        <item >Long ton</item>
+        <item >Short ton</item>
+        <item >Gram</item>
+        <item >Metric ton</item>
+    </string-array>
+    <string-array name="Area">
+        <item >Square kilometer</item>
+        <item >Square meter</item>
+        <item >Square Yard</item>
+        <item >Square mile</item>
+        <item >Square foot</item>
+        <item >Square inch</item>
+        <item >Acre</item>
+        <item >Hecatre</item>
+    </string-array>
+    <string-array name="Length/Width/Distance ">
+        <item >Centimeter</item>
+        <item >Inch</item>
+        <item >Millimeter</item>
+        <item >Foot</item>
+        <item >Miles</item>
+        <item >Yard</item>
+        <item >Meter</item>
+        <item >Kilometer</item>
+    </string-array>
+    <string-array name="Temperature">
+        <item >Celsius</item>
+        <item >Fahrenheit</item>
     </string-array>
 
 </resources>
