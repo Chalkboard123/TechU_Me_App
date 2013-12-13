@@ -43,7 +43,31 @@ public class MainActivity extends Activity {
 				spinnerFrom.setAdapter(adapter);
 				spinnerTo.setAdapter(adapter);
 
-			} else if(index==)
+			} else if(index==1){
+				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Mass, R.layout.spinner_item);
+				adapter.setDropDownViewResource(R.layout.spinner_item);
+				spinnerFrom.setAdapter(adapter);
+				spinnerTo.setAdapter(adapter);
+				
+			}else if (index==2){
+				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Area, R.layout.spinner_item);
+				adapter.setDropDownViewResource(R.layout.spinner_item);
+				spinnerFrom.setAdapter(adapter);
+				spinnerTo.setAdapter(adapter);
+
+			}else if (index==3){
+				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Length/Width/Distance, R.layout.spinner_item);
+				adapter.setDropDownViewResource(R.layout.spinner_item);
+				spinnerFrom.setAdapter(adapter);
+				spinnerTo.setAdapter(adapter);
+				
+			}else if (index==4){
+				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Temperature, R.layout.spinner_item);
+				adapter.setDropDownViewResource(R.layout.spinner_item);
+				spinnerFrom.setAdapter(adapter);
+				spinnerTo.setAdapter(adapter);
+
+				}
 			
 		}
 
