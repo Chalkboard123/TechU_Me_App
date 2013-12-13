@@ -1,0 +1,18 @@
+				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.spinner2_entries, R.layout.spinner_item);
+				adapter.setDropDownViewResource(R.layout.spinner_item);
+				spinner1.setAdapter(adapter);
+
+				
+				You also need a file called spinner_item.xml in the layout folder.  It will have the following code:
+				
+				<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="top"
+    android:singleLine="true"
+    android:textColor="#000">
+    
+
+</TextView>
+				
