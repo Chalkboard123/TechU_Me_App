@@ -10,12 +10,18 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 public class MainActivity extends Activity {
-
+	public static final int TYPE_VOLUME = 0;
+	public static final int TYPE_MASS = 1;
+	
+	
+	public static final int VOL_LITRES = 0;
+	public static final int VOL_MILLILITRES = 1;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Spinner spinnerTypes=(Spinner) findViewById(R.id.spinner1);
+		Spinner spinnerTypes=(Spinner) findViewById(R.id.spinner2);
 		spinnerTypes.setOnItemSelectedListener(new spinnerClick());
 	}
 
@@ -34,8 +40,8 @@ public class MainActivity extends Activity {
 		public void onItemSelected(AdapterView<?> spinner, View view, int index,
 				long id) {
 			// TODO Auto-generated method stub
-			Spinner spinnerFrom=(Spinner) findViewById(R.id.spinner2);
-			Spinner spinnerTo=(Spinner)findViewById(R.id.spinner3);
+			Spinner spinnerFrom=(Spinner) findViewById(R.id.spinner3);
+			Spinner spinnerTo=(Spinner)findViewById(R.id.spinner1);
 
 			if (index==0){
 				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Volume, R.layout.spinner_item);
@@ -77,6 +83,17 @@ public class MainActivity extends Activity {
 			
 		}
 		
+	}
+	
+	public float Convert(float input, int type, int unitFrom, int unitTo) {
+		switch(type) {
+		case TYPE_VOLUME:
+			
+			break;
+		case TYPE_MASS:
+		}
+		
+		return input;
 	}
 
 }

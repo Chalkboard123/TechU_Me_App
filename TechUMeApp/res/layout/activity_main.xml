@@ -51,15 +51,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
 
         <Spinner
             android:id="@+id/spinner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:entries="@array/types" 
-            />
+            android:entries="@array/types" />
 
         <Spinner
             android:id="@+id/spinner3"
@@ -90,12 +90,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" >
-    </LinearLayout>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="256dp"
-        android:layout_height="60dp"
-        android:text="Convert" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="256dp"
+            android:layout_height="60dp"
+            android:text="Convert" />
+
+    </LinearLayout>
 
 </LinearLayout>
