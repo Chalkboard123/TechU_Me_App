@@ -9,6 +9,11 @@ package com.MetalJourny.techumeapp;
 
 public final class R {
     public static final class array {
+        public static final int Area=0x7f060003;
+        public static final int Length/Width/Distance =0x7f060004;
+        public static final int Mass=0x7f060002;
+        public static final int Temperature=0x7f060005;
+        public static final int Volume=0x7f060001;
         public static final int types=0x7f060000;
     }
     public static final class attr {
@@ -38,44 +43,30 @@ public final class R {
         public static final int button1=0x7f090006;
         public static final int editText1=0x7f090001;
         public static final int editText2=0x7f090002;
-        public static final int spinner1=0x7f090003;
-        public static final int spinner2=0x7f090004;
-        public static final int spinner3=0x7f090005;
+        public static final int spinner1=0x7f090005;
+        public static final int spinner2=0x7f090003;
+        public static final int spinner3=0x7f090004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int spinner_item=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int BackSpace=0x7f050014;
-        public static final int Backspace=0x7f050015;
-        public static final int ConversionSteps=0x7f05000f;
-        public static final int Convert=0x7f050012;
+        public static final int ConversionSteps=0x7f050005;
+        public static final int Convert=0x7f050007;
         public static final int MetalJourney=0x7f050003;
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int b0=0x7f05000d;
-        public static final int b2=0x7f050005;
-        public static final int b3=0x7f050006;
-        public static final int b4=0x7f050007;
-        public static final int b5=0x7f050008;
-        public static final int b6=0x7f050009;
-        public static final int b7=0x7f05000a;
-        public static final int b8=0x7f05000b;
-        public static final int b9=0x7f05000c;
-        public static final int backspace=0x7f050013;
-        public static final int bequal=0x7f05000e;
-        public static final int button1=0x7f050004;
-        public static final int clear=0x7f050016;
-        public static final int convert=0x7f050010;
-        public static final int decimal=0x7f050011;
+        public static final int bequal=0x7f050004;
+        public static final int convert=0x7f050006;
         public static final int hello_world=0x7f050002;
-        public static final int hint1=0x7f050018;
-        public static final int hint2=0x7f050019;
-        public static final int prompt1=0x7f050017;
-        public static final int startingvalue=0x7f05001a;
+        public static final int hint1=0x7f050009;
+        public static final int hint2=0x7f05000a;
+        public static final int prompt1=0x7f050008;
+        public static final int startingvalue=0x7f05000b;
     }
     public static final class style {
         /** 
