@@ -23,7 +23,9 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="numberDecimal" 
-            android:hint="@string/startingvalue">
+            android:hint="@string/startingvalue"
+            android:textColor="#FFFFFF"
+            >
 
             <requestFocus />
         </EditText>
@@ -42,7 +44,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:hint="@string/hint2" />
+            android:hint="@string/hint2"
+            android:textColor="#FFFFFF" />
    
     </LinearLayout>
 
@@ -55,7 +58,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:entries="@array/types" />
+            android:entries="@array/types" 
+            />
 
         <Spinner
             android:id="@+id/spinner3"
