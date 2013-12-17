@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 				spinnerTo.setAdapter(adapter);
 
 			}else if (index==3){
-				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Length/Width/Distance, R.layout.spinner_item);
+				ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(getApplicationContext(), R.array.Length_Width_Distance, R.layout.spinner_item);
 				adapter.setDropDownViewResource(R.layout.spinner_item);
 				spinnerFrom.setAdapter(adapter);
 				spinnerTo.setAdapter(adapter);

@@ -10,7 +10,7 @@ package com.MetalJourny.techumeapp;
 public final class R {
     public static final class array {
         public static final int Area=0x7f060003;
-        public static final int Length/Width/Distance =0x7f060004;
+        public static final int Length_Width_Distance =0x7f060004;
         public static final int Mass=0x7f060002;
         public static final int Temperature=0x7f060005;
         public static final int Volume=0x7f060001;
@@ -35,7 +35,6 @@ public final class R {
         public static final int ic_launcher=0x7f020003;
         public static final int space=0x7f020004;
         public static final int vs=0x7f020005;
-        public static final int wp=0x7f020006;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f090000;
